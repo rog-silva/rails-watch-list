@@ -1,0 +1,31 @@
+#list_banner_index {
+  background-image: asset-url("kino.jpg");
+  background-color: rgba(195,195,195,0.2);
+  background-size: cover;
+}
+
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 250px;
+}
+
+.banner p {
+  font-size: 35px;
+  color:rgb(239, 239, 239);
+  opacity: .7;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  position: relative;
+  bottom: -140px;
+  text-align: center;
+}
+
+// .banner h1 {
+//   margin: 0;
+//   color: rgb(41, 41, 41);
+//   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+//   font-size: 52px;
+//   font-weight: bold;
+//   position: relative;
+//   bottom: -120px;
+// }

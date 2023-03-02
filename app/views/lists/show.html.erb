@@ -1,0 +1,9 @@
+<div class="banner" id="banner_show">
+  <div class="container">
+    <p><%= @list.name  %></p>
+  </div>
+</div>
+<br>
+<div class="container">
+  <span class="movie-tag">You have in this list <%= pluralize(@list.movies.size, "movie") %></span>
+</div>

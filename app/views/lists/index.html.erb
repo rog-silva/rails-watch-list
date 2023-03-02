@@ -1,0 +1,18 @@
+<div class="banner" id="list_banner_index">
+  <div class="container">
+    <p>Here you can create your own watchlists of movies</p>
+  </div>
+</div>
+
+<div class="container">
+  <% if @lists.empty? %>
+    <h3>There are not movie yet in your movie list</h3>
+  <% else %>
+    <div class="cards">
+      <% @lists.each do |list| %>
+        <div class="card-category">
+          <%= render "lists/partials/card", list: %>
+        </div>
+      <% end %>
+    </div>
+<% end %>
